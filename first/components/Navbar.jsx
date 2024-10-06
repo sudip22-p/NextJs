@@ -7,6 +7,7 @@ const Navbar = () => {
         <div className="text-white text-lg font-bold">My Navbar</div>
         <div>
           <Link href="/" className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Home</Link>
+          <Link href="/post" className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Posts</Link>
           <Link href="/about" className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">About</Link>
           <Link href="/contact" className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Contact</Link>
           <Link href="/login" className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Login</Link>
