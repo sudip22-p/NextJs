@@ -9,6 +9,8 @@ const page = () => {
         alt="Avatar"
         width={500}
         height={500}
+        style={{ width: 'auto', height: 'auto' }}
+        priority
       />
     Home page here....
     </div>
